@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deployment
 Create a `.env` file with the following variables:
-* SSH_KEY = the file name of your ssh key used to access server, assumed to be in `~/.ssh/`
-* DEPLOY_USER = user that the deploy task runs as on the server
-* STAGING_SERVER = url for the server that you want to deploy to
+* `SSH_KEY` = the file name of your ssh key used to access server, assumed to be in `~/.ssh/`
+* `DEPLOY_USER` = user that the deploy task runs as on the server
+* `STAGING_SERVER` = url for the server that you want to deploy to
 
 ## Development server
 
