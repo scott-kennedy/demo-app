@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0-rc.2.
 
+## Deployment
+Create a `.env` file with the following variables:
+* SSH_KEY = the file name of your ssh key used to access server, assumed to be in `~/.ssh/`
+* DEPLOY_USER = user that the deploy task runs as on the server
+* STAGING_SERVER = url for the server that you want to deploy to
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
